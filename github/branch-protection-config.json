@@ -1,0 +1,23 @@
+{
+  "required_pull_request_reviews": {
+    "required_approving_review_count": 1,
+    "dismiss_stale_reviews": true,
+    "require_code_owner_reviews": false
+  },
+  "required_status_checks": {
+    "strict": true,
+    "contexts": [
+      "build-and-push"
+    ]
+  },
+  "enforce_admins": true,
+  "restrictions": null,
+  "allow_force_pushes": false,
+  "allow_deletions": false,
+  "block_creations": false,
+  "required_linear_history": true,
+  "push_restriction_token_users": [],
+  "push_restriction_token_teams": [],
+  "push_restriction_token_apps": []
+}
+

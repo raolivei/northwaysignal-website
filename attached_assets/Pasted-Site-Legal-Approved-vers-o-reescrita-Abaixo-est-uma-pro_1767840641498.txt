@@ -1,0 +1,125 @@
+Site “Legal‑Approved” — versão reescrita
+
+Abaixo está uma proposta de copy completa para o site. Ela preserva a essência de oferecer serviços de engenharia de alta qualidade, mas remove elementos que poderiam gerar questionamentos (referências diretas a SurveyMonkey, foco excessivo no fundador, ausência de esclarecimentos sobre modelo de engajamento). É uma base estruturada em seções:
+
+[LOGO] Pitanga
+
+(tagline opcional): Platform Engineering & Cloud Strategy
+
+Seção Hero (acima da dobra)
+
+High-leverage cloud engineering, built for scale.
+Pitanga é um estúdio de engenharia sênior que entrega plataformas confiáveis e arquiteturas de nuvem escaláveis para empresas que valorizam clareza e consistência. Trabalhamos ao lado de líderes técnicos para transformar visão em realidade.
+
+[Botão] Inicie uma conversa
+
+Seção: O que fazemos
+
+Soluções de plataforma e estratégia
+
+Apresentamos nossos serviços como caixas, sem detalhes pessoais:
+
+Cloud Architecture
+Desenho e implementação de infraestruturas escaláveis e econômicas em AWS e GCP.
+
+Reliability Engineering
+Criação de sistemas resilientes que permanecem disponíveis quando realmente importa. Práticas de monitoramento, resposta a incidentes e SRE.
+
+Platform Engineering
+Construção de Internal Developer Platforms que aceleram a entrega de software sem sacrificar governança.
+
+Technical Advisory
+Mentoria estratégica para CTOs e líderes de engenharia nas decisões complexas de build vs. buy.
+
+AI Systems Design
+Preparação de infraestruturas para a próxima onda de workloads de IA e aplicações data-intensive.
+
+Automation & Tooling
+Eliminação de toil por meio de automação inteligente e pipelines de CI/CD rigorosos.
+
+Seção: Nosso modelo de engajamento
+
+Como trabalhamos
+
+Entidade registrada nos EUA
+Atuamos por meio de uma pessoa jurídica norte-americana. Todos os contratos, faturas e documentações de compliance são emitidos por essa entidade, garantindo simplicidade para nossos clientes.
+
+Serviços independentes
+Operamos exclusivamente como prestadores de serviços independentes. Não oferecemos serviços de “staffing” ou intermediação de mão de obra.
+
+Autonomia e transparência
+Trabalhamos em estreita colaboração com suas equipes, com plena autonomia técnica e foco em resultados. Priorizamos acordos de escopo (SOWs) claros e mensuráveis.
+
+Escala sob demanda
+Podemos alocar recursos adicionais sob o mesmo modelo, mantendo um relacionamento de fornecedor único e previsível.
+
+Seção: Abordagem
+
+Princípios que nos guiam
+
+Pragmatismo sobre perfeição
+Valor é entregue com código em produção, não com diagramas complexos.
+
+Baixa cerimônia, alto impacto
+Acesso direto a engenheiros seniores. Sem camadas de gerência, sem filtros.
+
+Orientação a resultados
+Sucesso é medido por uptime, velocidade de entrega e satisfação das equipes de desenvolvimento.
+
+Construído para escalar
+Soluções desenhadas desde o início para acompanhar o crescimento, sem over‑engineering.
+
+Seção: Senior-led delivery
+
+Equipe sênior, entregas de alto nível
+
+A Pitanga é liderada e operada por profissionais com ampla experiência em arquitetura de sistemas e confiabilidade, acumulada em engajamentos de alta confiança com empresas globais. Toda entrega conta com envolvimento direto de engenheiros seniores — não terceirizamos para equipes júnior.
+
+Podemos mencionar discretamente a experiência sem citar clientes específicos:
+
+Nossos especialistas já apoiaram implementações de plataforma para organizações de tecnologia listadas na Fortune 500, sempre preservando confidencialidade e compliance.
+
+Seção: Compliance & Trust
+
+Compromisso com segurança e conformidade
+
+Entidade legal registrada nos Estados Unidos (LLC)
+
+Modelo contratual de prestador independente
+
+Clientes isentos de obrigações fiscais internacionais
+
+Boas práticas de segurança da informação e confidencialidade
+
+Flexibilidade para trabalhar dentro das políticas de compliance de cada cliente
+
+Seção: Chamada à ação
+
+Pronto para elevar a sua plataforma?
+A Pitanga escolhe ser pequena para manter foco e impacto. Se você procura um parceiro de engenharia sênior para construir sistemas melhores e mais confiáveis, vamos conversar.
+
+[Botão] Fale conosco
+
+Rodapé
+
+Pitanga — plataforma e estratégia de nuvem
+
+[Link para LinkedIn] • [Link para contato por email]
+
+Pitanga® é uma marca da [NOME JURÍDICO NEUTRO] LLC, registrada em Delaware, EUA.
+
+© 2026 [NOME JURÍDICO NEUTRO] LLC. Todos os direitos reservados.
+
+🎯 Resumo do que mudamos
+
+Removemos menções diretas a SurveyMonkey ou clientes específicos, evitando confusões de consultoria pré-existente.
+
+Trocamos “Founder-driven” por “Senior-led delivery” para tirar o foco da pessoa física.
+
+Adicionamos uma seção “Como trabalhamos” explicando o modelo de engajamento (LLC norte-americana, contratado independente, sem obrigações extras para o cliente).
+
+Incluímos uma seção “Compliance & Trust” explicitando que o cliente está protegido de riscos fiscais e trabalhistas.
+
+Clarificamos no rodapé o uso de uma LLC neutra (pode ser um dos nomes sugeridos) operando sob a marca Pitanga.
+
+Com essas alterações, seu site não apenas vende a proposta de valor técnico, mas também comunica seriedade jurídica e facilidade de contratação — aumentando a confiança de qualquer VP, CTO ou equipe de procurement.

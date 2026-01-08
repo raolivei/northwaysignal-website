@@ -1,0 +1,84 @@
+# Northway Signal LLC
+
+## Engineering Services for Scalable, Reliable Systems
+
+Northway Signal LLC is a U.S.-registered engineering services company providing specialized support in cloud infrastructure, platform reliability, and large-scale systems operations.
+
+We work with technology organizations that require dependable execution, clear accountability, and minimal operational friction.
+
+---
+
+## Services
+
+Northway Signal provides engineering services across areas such as:
+
+* Cloud infrastructure and platform engineering
+* Reliability, observability, and monitoring systems
+* Deployment automation and systems tooling
+* Infrastructure modernization and migration initiatives
+* Operational stability and performance optimization
+
+Services are delivered under clearly defined scopes and integrate with existing client engineering teams and workflows.
+
+---
+
+## Engagement Model
+
+Northway Signal operates as an independent services vendor.
+
+* Direct services-for-consideration relationship
+* Defined statements of work and deliverables
+* No employment, staffing, or labor relationship
+* No operational or managerial control over client teams
+
+Clients contract directly with Northway Signal LLC, maintaining a clean and straightforward U.S. vendor relationship.
+
+---
+
+## Compliance & Structure
+
+All contractual, tax, and compliance responsibilities are handled by Northway Signal LLC.
+
+* U.S.-based contracting entity
+* Standard enterprise documentation (W-9, NDAs, MSAs, SOWs)
+* Invoicing in USD
+* Clear separation between client operations and service delivery
+
+This structure is designed to reduce legal, tax, and operational complexity for clients.
+
+---
+
+## Security & Confidentiality
+
+Northway Signal follows industry-standard security and confidentiality practices, including:
+
+* Client confidentiality and non-disclosure agreements
+* Secure access controls aligned with client policies
+* Responsible data handling and least-privilege access
+
+Security practices are adapted to meet client-specific requirements and controls.
+
+---
+
+## Clients
+
+Northway Signal supports organizations operating complex technical systems, including:
+
+* Technology companies
+* Infrastructure and platform teams
+* Organizations running production systems at scale
+
+Engagements prioritize long-term reliability, clarity of scope, and execution quality.
+
+---
+
+## Contact
+
+For general inquiries or vendor onboarding discussions:
+
+**[contact@northwaysignal.com](mailto:contact@northwaysignal.com)**
+
+---
+
+© Northway Signal LLC
+Independent engineering services provider

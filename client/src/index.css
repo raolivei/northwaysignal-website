@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Color Palette - Deep Forest & Charcoal Theme */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius: 0.5rem;
+}
+
+:root {
+  /* Base - Deep Charcoal/Green */
+  --background: 155 15% 6%; /* #0D120F */
+  --foreground: 150 10% 90%; /* #E0E6E2 */
+
+  /* Cards - Slightly lighter than background */
+  --card: 155 15% 9%;
+  --card-foreground: 150 10% 90%;
+
+  --popover: 155 15% 9%;
+  --popover-foreground: 150 10% 90%;
+
+  /* Primary - Pitanga Accent (Red/Orange) for buttons/highlights?
+     Actually, let's keep primary understated (Engineering Green)
+     and use Accent for the Fruit color.
+  */
+  --primary: 150 10% 90%; /* White/Off-white for high contrast actions */
+  --primary-foreground: 155 20% 10%;
+
+  /* Secondary - Muted Green */
+  --secondary: 155 20% 15%;
+  --secondary-foreground: 150 10% 90%;
+
+  /* Muted - Text mostly */
+  --muted: 155 10% 20%;
+  --muted-foreground: 150 5% 60%;
+
+  /* Accent - The Pitanga Fruit (Deep Orange/Red) */
+  --accent: 12 76% 61%; /* #E86A45 - Pitanga Red/Orange */
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 155 10% 15%;
+  --input: 155 10% 15%;
+  --ring: 155 20% 30%;
+
+  --radius: 0.25rem;
+}
+
+.dark {
+  /* We are dark by default, so just map same or slightly tweaked */
+  --background: 155 15% 6%;
+  --foreground: 150 10% 90%;
+
+  --card: 155 15% 9%;
+  --card-foreground: 150 10% 90%;
+
+  --popover: 155 15% 9%;
+  --popover-foreground: 150 10% 90%;
+
+  --primary: 150 10% 90%;
+  --primary-foreground: 155 20% 10%;
+
+  --secondary: 155 20% 15%;
+  --secondary-foreground: 150 10% 90%;
+
+  --muted: 155 10% 20%;
+  --muted-foreground: 150 5% 60%;
+
+  --accent: 12 76% 61%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 155 10% 15%;
+  --input: 155 10% 15%;
+  --ring: 155 20% 30%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased selection:bg-accent/20 selection:text-accent;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight font-medium;
+  }
+}

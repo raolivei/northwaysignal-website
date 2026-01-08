@@ -1,0 +1,69 @@
+Here’s a single, high-impact creative prompt you can drop into a web designer, AI site builder, or creative agent (Framer, Webflow, Midjourney → design handoff, etc.).
+
+⸻
+
+Creative Prompt — “Pitanga” Website
+
+Design a premium, founder-led consulting website called “Pitanga.”
+
+Pitanga is a modern consulting studio built by a senior cloud systems engineer. Today, it delivers high-trust consulting services for SurveyMonkey, but it is intentionally designed to scale into cloud architecture, platform engineering, and applied AI advisory over time.
+
+Brand Feel
+	•	Calm, confident, minimalist
+	•	Founder-driven credibility (not agency fluff)
+	•	Feels like “quietly elite” engineering
+	•	Inspired by Stripe, Vercel, Linear, OpenAI (clarity over noise)
+	•	Premium but human — thoughtful, warm, precise
+
+Visual Language
+	•	Clean typography, generous whitespace
+	•	Muted natural palette (deep green, charcoal, off-white) with subtle accent color inspired by the pitanga fruit
+	•	Light motion, micro-interactions, no heavy animations
+	•	Abstract system visuals: networks, flows, architecture lines (not stock photos of people)
+
+Site Structure
+	1.	Hero
+	•	One-sentence positioning:
+“High-leverage cloud and platform consulting, built for scale.”
+	•	Subtext hinting at evolution into AI & advanced systems
+	2.	What Pitanga Is
+	•	A focused consulting entity today
+	•	A long-term platform for cloud, infra, and AI expertise
+	3.	Services (Now & Future-Ready)
+	•	Platform & Cloud Architecture
+	•	Reliability & Systems Design
+	•	Strategic Technical Advisory
+	•	Future-facing: AI systems, automation, decision intelligence
+	4.	Approach
+	•	Pragmatic
+	•	Outcome-driven
+	•	Low-ceremony, high-impact
+	•	Built by someone who has run systems in production
+	5.	Founder Section
+	•	Personal, credible, understated
+	•	Emphasize experience, judgment, and trust
+	•	Avoid buzzwords; focus on signal
+	6.	Call to Action
+	•	Simple and discreet:
+“Start a conversation.”
+
+Tone of Voice
+	•	Confident, not loud
+	•	Precise, not verbose
+	•	Visionary, but grounded
+	•	No marketing jargon
+
+Important Constraint
+
+The site must feel complete and credible today, while clearly leaving room for Pitanga to evolve into a broader cloud & AI studio without needing a redesign.
+
+The end result should feel like:
+“This company is small by choice — not by limitation.”
+
+⸻
+
+If you want, next we can:
+	•	Turn this into exact homepage copy
+	•	Generate a Framer/Webflow component map
+	•	Create a logo + color system
+	•	Write a future-proof About page that scales into AI without rewriting later
