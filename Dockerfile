@@ -32,3 +32,5 @@ EXPOSE 5000
 
 CMD ["node", "dist/index.cjs"]
 
+
+

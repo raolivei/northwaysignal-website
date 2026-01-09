@@ -25,3 +25,5 @@ export function LogoMark({ className = "" }: { className?: string }) {
     </div>
   );
 }
+
+

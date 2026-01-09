@@ -13,3 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Express backend with Drizzle ORM.
 - Project conventions setup (VERSION, CHANGELOG, GitHub Actions).
 
+
+

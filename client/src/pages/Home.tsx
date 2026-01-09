@@ -61,16 +61,16 @@ export default function Home() {
           >
             <motion.div variants={fadeIn} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono text-accent/90 uppercase tracking-widest">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              U.S.-Registered Engineering Services
+              System Architecture & Advisory
             </motion.div>
             
             <motion.h1 variants={fadeIn} className="font-display text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight leading-[0.95] text-foreground" data-testid="text-hero-title">
-              Engineering Services <br />
-              <span className="text-muted-foreground">for Scalable, Reliable Systems</span>
+              High-leverage cloud consulting, <br />
+              <span className="text-muted-foreground">built for scale.</span>
             </motion.h1>
 
             <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-description">
-              Northway Signal LLC is a U.S.-registered engineering services company providing specialized support in cloud infrastructure, platform reliability, and large-scale systems operations. We work with technology organizations that require dependable execution, clear accountability, and minimal operational friction.
+              Northway Signal provides specialized support in cloud infrastructure, platform reliability, and large-scale systems operations. We work with technology organizations that require dependable execution, clear accountability, and minimal friction.
             </motion.p>
 
             <motion.div variants={fadeIn} className="pt-8">
@@ -345,3 +345,4 @@ function ClientBadge({ children }: { children: React.ReactNode }) {
     </span>
   );
 }
+
