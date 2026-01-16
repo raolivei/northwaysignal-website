@@ -1,0 +1,97 @@
+# Northway Signal Website - Cursor Rules
+
+## Workspace
+
+See `../workspace-config/docs/PROJECT_CONVENTIONS.md` for shared conventions (git workflow, CHANGELOG, Docker/GHCR, K8s, security).
+
+**Ports** (from `../workspace-config/ports/.env.ports`):
+
+- Web: `5000`
+
+## Commands
+
+```bash
+# Development
+npm install                      # Install dependencies
+npm run dev                      # Start dev server (http://localhost:5000)
+
+# Build & Production
+npm run build                    # Build for production
+npm start                        # Start production server
+
+# Type Checking
+npm run check                    # TypeScript type check
+
+# Docker
+docker build -t northwaysignal-website:latest .
+docker run -p 5000:5000 northwaysignal-website:latest
+
+# Kubernetes
+kubectl apply -k k8s/            # Deploy to eldertree
+```
+
+## Workflow
+
+1. Always run `npm run check` after TypeScript changes
+2. Update CHANGELOG.md for all changes
+3. Never run git commands at workspace root
+
+## Project Overview
+
+Consulting website for Northway Signal. React + Vite frontend with Express backend. Runs on **eldertree** k3s cluster.
+
+```
+northwaysignal-website/
+├── client/              # React + Vite frontend
+│   ├── src/
+│   │   ├── components/  # React components (shadcn/ui)
+│   │   ├── pages/       # Page components
+│   │   ├── hooks/       # Custom hooks
+│   │   └── lib/         # Utilities
+│   └── public/          # Static assets
+├── server/              # Express backend
+│   ├── index.ts         # Server entry
+│   ├── routes.ts        # API routes
+│   └── static.ts        # Static file serving
+├── shared/              # Shared TypeScript types
+├── k8s/                 # Kubernetes manifests
+└── Dockerfile           # Production image
+```
+
+## Code Style
+
+**TypeScript**: See `client/src/pages/Home.tsx` for page patterns, `client/src/components/` for component patterns.
+
+**UI Components**: Uses shadcn/ui. See `client/src/components/ui/` for available components.
+
+**Styling**: Tailwind CSS. Follow existing patterns.
+
+## Common Tasks
+
+### Adding Page
+
+1. Create in `client/src/pages/`
+2. Add route in App.tsx if needed
+3. Use existing component patterns
+
+### Adding Component
+
+1. Create in `client/src/components/`
+2. Use shadcn/ui primitives where possible
+3. Follow Tailwind styling patterns
+
+### Adding API Route
+
+1. Add route in `server/routes.ts`
+2. Add types in `shared/schema.ts`
+
+## Docker Images
+
+- Web: `ghcr.io/raolivei/northwaysignal-website:<tag>`
+
+## Tech Stack
+
+- **Frontend**: React 19, Vite, TypeScript, Tailwind CSS, Framer Motion, shadcn/ui
+- **Backend**: Express, TypeScript
+- **Build**: esbuild
+- **Deployment**: Docker, Kubernetes (k3s), ARM64
