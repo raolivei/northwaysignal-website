@@ -15,8 +15,6 @@ spec:
       labels:
         app: northwaysignal-website
     spec:
-      imagePullSecrets:
-        - name: ghcr-secret
       containers:
         - name: website
           image: ghcr.io/raolivei/northwaysignal-website:latest
