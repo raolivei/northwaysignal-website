@@ -8,7 +8,10 @@ export function Logo({ className = "" }: { className?: string }) {
         <div className="absolute bottom-0 left-[14px] w-1.5 h-5 bg-accent/80 rounded-sm" />
         <div className="absolute bottom-0 left-[21px] w-1.5 h-7 bg-accent rounded-sm" />
       </div>
-      <span className="font-display font-semibold text-lg tracking-tight text-foreground">
+      <span
+        className="font-display font-medium text-lg text-foreground"
+        style={{ letterSpacing: "0.015em" }}
+      >
         Northway Signal
       </span>
     </div>

@@ -1,5 +1,18 @@
-node_modules
-dist
+# Node / Vite (do not track — hundreds of MB)
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+client/dist
+
+# Env
+.env
+.env.*.local
+
+.venv
+.venv-*/
 .DS_Store
 *.log
 
