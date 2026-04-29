@@ -40,8 +40,10 @@ on:
         required: false
         default: "latest"
 
+# ``contents: write`` is required by raolivei/github-workflows ``docker-build.yml`` (optional
+# ``git-version-tag`` job requests it; validation fails if the caller only allows read).
 permissions:
-  contents: read
+  contents: write
   packages: write
 
 concurrency:
