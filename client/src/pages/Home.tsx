@@ -261,12 +261,12 @@ export default function Home() {
             For general inquiries or vendor onboarding discussions:
           </p>
           <a 
-            href="mailto:contact@northwaysignal.com" 
+            href="mailto:contact@pitanga.cloud" 
             className="inline-flex items-center gap-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-full px-10 h-14 text-lg shadow-[0_0_30px_-10px_rgba(232,106,69,0.5)] transition-colors"
             data-testid="button-email-cta"
           >
             <Mail className="w-5 h-5" />
-            contact@northwaysignal.com
+            contact@pitanga.cloud
           </a>
         </div>
       </section>
