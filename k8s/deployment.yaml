@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: northwaysignal-website
-  namespace: default
+  namespace: pitanga
   labels:
     app: northwaysignal-website
 spec:

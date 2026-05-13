@@ -5,6 +5,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* Type: Inter (UI/body), Inter Tight (display/headings), IBM Plex Mono (code/kickers;
+   Source Serif 4 (optional long copy). --font-technical is an alias for mono. Paid
+   display upgrade: self-host Söhne (or similar) WOFF2 under public/fonts, @font-face
+   with font-display: swap, then point --font-display at that family. */
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -47,8 +52,10 @@
   --color-chart-5: hsl(var(--chart-5));
 
   --font-sans: "Inter", system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Inter Tight", "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-technical: var(--font-mono);
 
   --radius: 0.5rem;
 }

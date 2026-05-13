@@ -69,7 +69,11 @@ export default function Home() {
               <span className="text-muted-foreground">built for scale.</span>
             </motion.h1>
 
-            <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed" data-testid="text-hero-description">
+            <motion.p
+              variants={fadeIn}
+              className="font-serif text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
+              data-testid="text-hero-description"
+            >
               Northway Signal provides specialized support in cloud infrastructure, platform reliability, and large-scale systems operations. We work with technology organizations that require dependable execution, clear accountability, and minimal friction.
             </motion.p>
 
@@ -151,7 +155,7 @@ export default function Home() {
               <h2 className="font-display text-3xl md:text-5xl font-medium text-foreground mb-6" data-testid="text-engagement-title">
                 Independent Services Vendor
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="font-serif text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
                 Clients contract directly with Northway Signal LLC, maintaining a clean and straightforward U.S. vendor relationship.
               </p>
             </div>
@@ -261,12 +265,12 @@ export default function Home() {
             For general inquiries or vendor onboarding discussions:
           </p>
           <a 
-            href="mailto:contact@northwaysignal.com" 
+            href="mailto:contact@pitanga.cloud" 
             className="inline-flex items-center gap-3 bg-accent hover:bg-accent/90 text-white font-medium rounded-full px-10 h-14 text-lg shadow-[0_0_30px_-10px_rgba(232,106,69,0.5)] transition-colors"
             data-testid="button-email-cta"
           >
             <Mail className="w-5 h-5" />
-            contact@northwaysignal.com
+            contact@pitanga.cloud
           </a>
         </div>
       </section>

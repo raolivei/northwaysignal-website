@@ -3,18 +3,14 @@ import fs from 'fs';
 import path from 'path';
 
 /**
- * Vite plugin that updates og:image and twitter:image meta tags
- * to point to the app's opengraph image with the correct Replit domain.
+ * Vite plugin: rewrite og:image and twitter:image to absolute URL on the
+ * configured deployment host when `client/public/opengraph.{png,jpg,jpeg}` exists.
  */
 export function metaImagesPlugin(): Plugin {
   return {
-    name: 'vite-plugin-meta-images',
+    name: "vite-plugin-meta-images",
     transformIndexHtml(html) {
-      const baseUrl = getDeploymentUrl();
-      if (!baseUrl) {
-        log('[meta-images] no Replit deployment domain found, skipping meta tag updates');
-        return html;
-      }
+      const baseUrl = getDeploymentBaseUrl();
 
       // Check if opengraph image exists in public directory
       const publicDir = path.resolve(process.cwd(), 'client', 'public');
@@ -32,13 +28,13 @@ export function metaImagesPlugin(): Plugin {
       }
 
       if (!imageExt) {
-        log('[meta-images] OpenGraph image not found, skipping meta tag updates');
+        log("[meta-images] OpenGraph image not found, skipping meta tag updates");
         return html;
       }
 
       const imageUrl = `${baseUrl}/opengraph.${imageExt}`;
 
-      log('[meta-images] updating meta image tags to:', imageUrl);
+      log("[meta-images] updating meta image tags to:", imageUrl);
 
       html = html.replace(
         /<meta\s+property="og:image"\s+content="[^"]*"\s*\/>/g,
@@ -55,20 +51,26 @@ export function metaImagesPlugin(): Plugin {
   };
 }
 
-function getDeploymentUrl(): string | null {
+function getDeploymentBaseUrl(): string {
+  const fromEnv = process.env.SITE_URL?.replace(/\/$/, "").trim();
+  if (fromEnv) {
+    log("[meta-images] using SITE_URL:", fromEnv);
+    return fromEnv;
+  }
+
   if (process.env.REPLIT_INTERNAL_APP_DOMAIN) {
     const url = `https://${process.env.REPLIT_INTERNAL_APP_DOMAIN}`;
-    log('[meta-images] using internal app domain:', url);
+    log("[meta-images] using Replit app domain:", url);
     return url;
   }
 
   if (process.env.REPLIT_DEV_DOMAIN) {
     const url = `https://${process.env.REPLIT_DEV_DOMAIN}`;
-    log('[meta-images] using dev domain:', url);
+    log("[meta-images] using Replit dev domain:", url);
     return url;
   }
 
-  return null;
+  return "https://northwaysignal.pitanga.cloud";
 }
 
 function log(...args: any[]): void {
